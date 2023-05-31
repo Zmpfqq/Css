@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap');
+body{
+    background-color: bisque;
+}
+article .sabores{
+    color:goldenrod;
+}
+article ul{
+    color:#299312;
+}
+.title-page{
+    font-size: 30px; /*tamaño*/
+    font-family: 'Roboto Mono', cursive; /*tipo o fuente de texto*//*asia extended*/
+    color:rgba(32, 120, 54);
+    text-align: center;
+    background-color: bisque;
+    text-decoration: underline;
+}
+h2{
+    font-size: 10px;
+}
