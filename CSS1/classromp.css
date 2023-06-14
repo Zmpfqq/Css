@@ -1,0 +1,53 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+.main-container{
+	width: 100%;
+	min-height: 100vh;
+}
+.menu-items li{
+	list-style: none;
+	padding: 5px;
+	cursor: pointer;
+	margin-right:5px;
+	margin-left:5px;
+
+}
+.icon-svg{
+	height: 24px;
+	width: 24px;
+}
+.main-menu{
+	display: flex;
+	justify-content: space-between;
+	padding-left: 1em;
+	padding-right: 1em;
+	border-bottom: solid #d4d4d4 3px;
+}
+.menu-items{
+	display: flex;
+	padding: 0px;
+	margin: 0px;
+	height: 3rem;
+	align-items: center;
+}
+.interfaz{
+	width: 100%;
+	min-height: 100vh;
+}
+.title{
+	padding: 5px;
+	margin-right:5px;
+	margin-left:5px;
+	color: dodgerblue;
+}
+.T4tcpe {
+    bottom: 0;
+    color: #fff;
+    left: 0;
+    padding: 1rem 1.5rem;
+    position: absolute;
+    right: 0;
+}
