@@ -1,0 +1,182 @@
+body {
+  margin: 80px 0px 0px 0px;
+  overflow-x: hidden;
+  padding: 0px;
+  position: static;
+  width: 100%;
+  font-family: DINNextW1G,arial,georgia,sans-serif;
+  margin-top: 0;
+}
+.maincontainerheader{
+  display: block;
+  font-family: DINNextW1G,arial,georgia,sans-serif;
+  font-size: 10px;
+}
+.containerheader{
+  position: static;
+  margin: 0;
+  padding: 0;
+  font-family: "FF Mark W05",Arial,sans-serif;
+  display: block;
+}
+.containerheader1{
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  border: 0;
+  z-index: 200000;
+  display: block;
+  box-sizing: border-box;
+}
+.riotbar-header{
+  background-color: #111;
+  border-bottom: 2px solid rgba(51,51,51,.25);
+  font-family: "FF Mark W05",Arial,sans-serif;
+  font-size: 14px !important;
+  font-weight: bold;
+  height: 80px;
+  line-height: normal;
+  position: relative;
+  text-align: left;
+  display: flex;
+  width: 100%;
+  z-index: 3000000;
+}
+.riotbar-left-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 36px;
+}
+.riotbar-left-content-1{
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.riotbar-left-content-1logo{
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+}
+a{
+  color: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+.rlc1-first-logo{
+  width: 75px;
+  height: 24px;
+  fill: #f9f9f9;
+  position: relative;
+  margin: 0;
+  display: block;
+  animation: 1s;
+}
+.rlc1-second-logo{
+  display: block;
+  margin-left: 12px;
+  fill: #7e7e7e;
+  width: 8px;
+  height: 5px;
+}
+svg{
+  overflow-clip-margin: content-box;
+  overflow: hidden;
+}
+.rlc1-first-logo:hover{
+  fill: red;
+}
+.riotbar-center-content{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: flex-start;
+}
+.riotbar-center-logo{
+  height: 80px;
+  margin-left: 22px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.riotbar-center-logo1{
+  position: relative;
+}
+.riotbar-center-logo11{
+  fill: none;
+  height: 30;
+  width: 30;
+}
+.riotbar-center-container{
+  opacity: 1;
+  margin-left: 18px;
+  transition: opacity ease .3s;
+  width: 100%;
+  height: 80px;
+}
+
+
+
+  .img11{
+    width: 5%;
+    height: 5%;
+    padding: 0%;
+    border: 0%;
+    margin: 0%;
+  }
+  .hero {
+    background-color: #000;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  .hero p {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+  .features {
+    padding: 80px 0;
+    background-color: #f1f1f1;
+    text-align: center;
+  }
+  
+  .feature {
+    margin-bottom: 40px;
+  }
+  
+  .feature img {
+    max-width: 100%;
+  }
+  
+  .feature h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .feature p {
+    font-size: 18px;
+  }
+  .bottom pipi{
+    width: 200%;
+    height: 200%;
+  }
+  footer {
+    background-color: #212121;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .riotinc{
+    fill: #737373;
+  }
+  

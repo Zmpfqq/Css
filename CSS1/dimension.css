@@ -1,0 +1,23 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.square{
+    width: 50%;
+    height: 100vh;
+    background-color: red;
+}
+
+@media screen and (min-widht: 600px){
+    .square{
+        width: 100%;
+        height: 50vh;
+        background-color: aqua;
+    }
+}
+
+@media screen and (max-widht: 1000px) {
+    .square{
+        background-color: blueviolet;
+    }
+}

@@ -2,6 +2,8 @@ body{
 	margin: 0px;
 	padding: 0px;
 	font-family: sans-serif;
+	--chanchito-feliz: linear-gradient(rgb(238, 173, 173),rgb(93, 229, 253));
+	--sombra:0px 9px 0px opacity 10%;
 }
 .main-container{
 	width: 100%;
@@ -9,6 +11,7 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	background-image: var(--chanchito-feliz);
 }
 .menu-items li{
 	list-style: none;
@@ -35,7 +38,7 @@ body{
 	top: 0px;
 	z-index: 3;
 	background-color: aliceblue;
-
+	box-shadow: var(--sombra);
 }
 .menu-items{
 	display: flex;
@@ -69,12 +72,14 @@ body{
     position: relative;
     overflow: hidden;
     border-radius: 50%;
+	transition: all 1s;
 }
 .image{
     width: 100%;
     height: 100%;
     object-fit: cover;
     position: absolute;
+	transition: all 2s;
 }
 .texto{
     width: 100%;
@@ -89,13 +94,14 @@ body{
     opacity: 0;
     transition: all 1s;
 }
-.caja:hover .texto{
-    background-color: blueviolet;
-    opacity: 0.7;
-    cursor: pointer;
+.caja:hover .image{
+	filter: blur(5px)
 }
-.caja:hover{
+/*.caja:hover{
     box-shadow: 0px 0px 10px black;
+}*/
+.caja:hover{
+	transform: scale(1.5,1);
 }
 .content-title{
     /*text-shadow: pos_x pos_y blur color;*/
